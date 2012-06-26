@@ -1,3 +1,6 @@
 [submodule "features"]
 	path = features
 	url = git@github.com:lbifullstack/scoobydoo_features.git
+[submodule "scoobydoo_features"]
+	path = scoobydoo_features
+	url = git@github.com:lbifullstack/scoobydoo_features.git
