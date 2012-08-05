@@ -1,15 +1,13 @@
+assert = require('assert')
+
 describe "SmokeWithCoffee" , ->
 
   it "should be smokin hot" , ->
-    expect(true).toBeTruthy()
-    return
-
-  it "should be refreshful to write" , ->
-    expect(false).toBeFalsy()
+    assert.ok(true)
     return
 
   it "should be compiled into js and runnable as js code" , ->
-    expect(1).toEqual(1)
+    assert.equal(1, 1)
     return
 
   return
